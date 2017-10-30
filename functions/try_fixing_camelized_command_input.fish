@@ -9,5 +9,3 @@ function try_fixing_camelized_command_input --on-event fish_command_not_found
 
     return 127
 end
-
-functions try_fixing_camelized_command_input
