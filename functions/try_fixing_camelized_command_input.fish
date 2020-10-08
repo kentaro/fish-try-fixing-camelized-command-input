@@ -4,7 +4,7 @@ function try_fixing_camelized_command_input --on-event fish_command_not_found
     if [ "$argv" != "$new" ]
         echo "=> $new"
         eval $new
-        $status = 0
+        set status 0
         return 0
     end
 
