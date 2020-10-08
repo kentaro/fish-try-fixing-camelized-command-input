@@ -1,6 +1,6 @@
-# try_fixing_camelized_command_input.fish
+# fish-try-fixing-camelized-command-input
 
-This fish function tries to fix a certain kind of command input error like below:
+This fish plugin tries to fix a certain kind of command input error like below:
 
 ```sh
 $ gitSt
@@ -18,13 +18,10 @@ Your branch is up-to-date with 'origin/master'.
 nothing to commit, working tree clean
 ```
 
-## Setting
-
-As the [document](http://fishshell.com/docs/current/commands.html#function) describes, event handler isn't automatically loaded. You must execute the function once manually in your fish config file (e.g. config.fish).
+## Install
 
 ```
-# try_fixing_camelized_command_input
-try_fixing_camelized_command_input
+$ fisher add kentaro/fish-try-to-fix-camelized-command-input
 ```
 
 ## Author
