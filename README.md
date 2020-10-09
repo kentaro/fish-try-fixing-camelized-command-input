@@ -21,7 +21,7 @@ nothing to commit, working tree clean
 ## Install
 
 ```
-$ fisher add kentaro/fish-try-to-fix-camelized-command-input
+$ fisher add kentaro/fish-try-fixing-camelized-command-input
 ```
 
 ## Author
